@@ -1,4 +1,4 @@
-importimport React from 'react';
+import React from 'react';
 
 /**
  * Scalable SVG vector representation of the "DIGNIFY FUNERAL SOLUTIONS" logo.
