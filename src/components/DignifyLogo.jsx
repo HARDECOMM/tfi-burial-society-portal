@@ -1,13 +1,13 @@
-const React from 'react';
+import React from 'react';
 
 /**
  * Scalable SVG vector representation of the "DIGNIFY FUNERAL SOLUTIONS" logo.
  * Supports horizontal or vertical layouts, custom sizes, and inverted colors for dark overlays.
  */
 export default function DignifyLogo({ layout = 'horizontal', size = 'md', invert = false }) {
-  // DimeDimensionsnsions basedbased on size
+  // Dimensions based on size
   const sizes = {
-    xs: { emblem: 'h-8 w-8', textTitletextTitle: 'text-sm', textSub: 'text-[7px]' },
+    xs: { emblem: 'h-8 w-8', textTitle: 'text-sm', textSub: 'text-[7px]' },
     sm: { emblem: 'h-10 w-10', textTitle: 'text-lg', textSub: 'text-[9px]' },
     md: { emblem: 'h-14 w-14', textTitle: 'text-2xl', textSub: 'text-[11px]' },
     lg: { emblem: 'h-20 w-20', textTitle: 'text-4xl', textSub: 'text-sm' },
@@ -35,13 +35,13 @@ export default function DignifyLogo({ layout = 'horizontal', size = 'md', invert
         />
 
         {/* Circular blue backing globe */}
-        <circle cx="60" cy="62fill"32" fillfill="#3e8fad" />
-path
+        <circle cx="60" cy="62" r="32" fill="#3e8fad" />
+
         {/* Highlight sheen in the circle */}
-        <pathpath
+        <path
           d="M75 42 C84 48, 88 56, 88 64"
-         strokeketroke="#acd5e6"
-          ststrokeWidthrokeWidth="2..5"
+          stroke="#acd5e6"
+          strokeWidth="2.5"
           strokeLinecap="round"
           opacity="0.5"
         />
