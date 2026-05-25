@@ -1,11 +1,11 @@
-import React from 'react';
+import teact from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-import Home from './Pages/Home';
-import Plans from './Pages/Plans';
-import Contact from './Pages/Contact';
+import Home from './pages/Home';
+import Plans from './pages/Plans';
+import Contact from './importmportages/Contact';
 
 export default function App() {
   return (
