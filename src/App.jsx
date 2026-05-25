@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import Plans from './pages/Plans';
-import Contact from './importmportages/Contact';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
