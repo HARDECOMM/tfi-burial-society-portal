@@ -1,48 +1,210 @@
-# 📦 1. WHAT YOUR SUBMISSION SHOULD INCLUDE
+Got it — you want a clean GitHub README (plain, not overly “Markdown styled” or fancy blocks) that looks natural and professional when opened.
 
-Your final folder (or zip / GitHub repo) should look like this:
+Here is a simplified, real-world GitHub-ready version:
 
-```text id="project_structure"
-tfi-burial-society-portal/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Footer.jsx
-│   │   ├── WhatsAppButton.jsx
-│   │   ├── PricingCard.jsx
-│   │   ├── Navbar.jsx (optional)
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Plans.jsx
-│   │   ├── Contact.jsx
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-├── README.md   ⭐ IMPORTANT
-```
 
 ---
 
-# 📄 2. YOUR README.md (COPY THIS EXACTLY)
+TFI Burial Society Policy Portal
 
-This is VERY important — this is what reviewers read first.
+A responsive funeral policy website built for a technical assessment for TFI Burial Society (PTY) Ltd.
 
-````markdown id="readme"
-# TFI Burial Society Policy Portal
+This project demonstrates a modern frontend application built with React and Vite, focusing on clarity, speed, and usability for displaying funeral cover plans and customer interaction.
 
-A modern, responsive funeral policy website built for TFI Burial Society (PTY) Ltd, designed to provide clear and accessible funeral cover information and quick quote access.
 
-## 📌 Project Overview
+---
 
-This project is a 2-hour technical assessment submission demonstrating the ability to build a responsive, production-style frontend application using React and Vite.
+Project Overview
 
-The platform presents funeral cover plans, allows users to request quotes, and provides contact access via WhatsApp and form submission.
+This application provides a simple way for users to:
 
+View funeral cover plans
+
+Request a quick quote
+
+Contact via WhatsApp or form submission
+
+
+The design is focused on trust, readability, and mobile-friendly access.
+
+
+---
+
+Tech Stack
+
+React (JavaScript)
+
+Vite
+
+React Router DOM
+
+Tailwind CSS
+
+
+
+---
+
+Features
+
+Home Page:
+
+Hero section introducing funeral cover services
+
+Clear call-to-action buttons
+
+Trust indicators (Old Mutual, RMA, Dignify Funeral Solutions)
+
+
+Plans Page:
+
+Funeral cover plans displayed in responsive cards
+
+Includes:
+
+Single Member Plans
+
+Member & Children Plans
+
+Member & Spouse Plans
+
+Family Plans
+
+Extended Family Plans
+
+Special Benefit Plans (Grocery, After Tears, Inkomo, Tombstone, Cash)
+
+
+
+Contact Page:
+
+Quick quote request form
+
+WhatsApp contact integration
+
+Business information section
+
+
+Global Features:
+
+Floating WhatsApp button for instant contact
+
+Footer with legal disclaimer and navigation links
+
+
+
+---
+
+Design Approach
+
+The UI is built to simulate a real insurance product platform:
+
+Clean and professional layout
+
+Blue, white, and green theme
+
+Mobile-first responsive design
+
+Card-based structure instead of complex tables
+
+Focus on simplicity and speed over complexity
+
+
+
+---
+
+Project Structure
+
+src/ components/ Footer.jsx PricingCard.jsx WhatsAppButton.jsx
+
+pages/ Home.jsx Plans.jsx Contact.jsx
+
+App.jsx main.jsx
+
+
+---
+
+Company Information
+
+TFI Burial Society (PTY) Ltd
+Marketed by Dignify Funeral Solutions
+Underwritten by Old Mutual and RMA
+
+FSP Number: 50841
+
+
+---
+
+Disclaimer
+
+TFI Brokers (Pty) Ltd is a juristic representative operating under House of Administration (Pty) Ltd, an authorised Financial Services Provider (FSP No. 50841). Terms & Conditions Apply.
+
+
+---
+
+Setup Instructions
+
+Install dependencies: npm install
+
+Run development server: npm run dev
+
+Build project: npm run build
+
+
+---
+
+Deployment
+
+Can be deployed using:
+
+Vercel (recommended)
+
+Netlify
+
+Any static hosting service
+
+
+
+---
+
+Summary
+
+This project was built as a fast-turnaround MVP to demonstrate:
+
+React component structure
+
+UI design under time constraints
+
+Clean frontend architecture
+
+Responsive layout implementation
+
+Practical real-world product thinking
+
+
+
+---
+
+🧠 Why this version is better for your case
+
+Feels like a real developer wrote it
+
+Not “over-documented”
+
+Easy for reviewers to skim quickly
+
+Focuses on outcomes, not formatting tricks
+
+Looks like a real commercial project README
+
+
+
+---
+
+If you want next, I can help you:
+
+polish your GitHub repo appearance (what recruiters actually check first)
+
+or guide you on deploying it to Vercel in 5 minutes so you get a live link (this boosts your score a lot)
 ---
 
 ## ⚙️ Tech Stack
