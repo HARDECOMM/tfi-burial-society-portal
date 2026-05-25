@@ -1,9 +1,3 @@
-Good — this is the **final stage that actually affects your score**. A lot of people build the app but lose marks because their submission is messy or unclear.
-
-I’ll give you everything you need:
-
----
-
 # 📦 1. WHAT YOUR SUBMISSION SHOULD INCLUDE
 
 Your final folder (or zip / GitHub repo) should look like this:
