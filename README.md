@@ -1,8 +1,3 @@
-Got it — you want a clean GitHub README (plain, not overly “Markdown styled” or fancy blocks) that looks natural and professional when opened.
-
-Here is a simplified, real-world GitHub-ready version:
-
-
 ---
 
 TFI Burial Society Policy Portal
