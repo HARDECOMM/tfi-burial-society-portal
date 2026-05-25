@@ -1,4 +1,4 @@
-import React from 'react';
+const React from 'react';
 
 /**
  * Scalable SVG vector representation of the "DIGNIFY FUNERAL SOLUTIONS" logo.
@@ -14,7 +14,7 @@ export default function DignifyLogo({ layout = 'horizontal', size = 'md', invert
     xl: { emblem: 'h-28 w-28', textTitle: 'text-5xl', textSub: 'text-[16px]' },
   };
 
-  const curretextTitlesizes[size] || sizes.md;
+  const currentSize = sizes[size] || sizes.md;
 
   // Render the emblem SVG
   const renderEmblem = () => (
