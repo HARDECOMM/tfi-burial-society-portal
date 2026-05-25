@@ -190,16 +190,6 @@ Easy for reviewers to skim quickly
 Focuses on outcomes, not formatting tricks
 
 Looks like a real commercial project README
-
-
-
----
-
-If you want next, I can help you:
-
-polish your GitHub repo appearance (what recruiters actually check first)
-
-or guide you on deploying it to Vercel in 5 minutes so you get a live link (this boosts your score a lot)
 ---
 
 ## ⚙️ Tech Stack
