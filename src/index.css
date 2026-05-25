@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  /* Trustworthy brand colors: custom blues and greens with Slate foundations */
+  --color-brand-blue-dark: #0f1e36;
+  --color-brand-blue: #1d4ed8;
+  --color-brand-blue-light: #3b82f6;
+  --color-brand-green: #10b981;
+  --color-brand-green-dark: #0f766e;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
