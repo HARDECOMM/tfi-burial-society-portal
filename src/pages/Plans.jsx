@@ -48,8 +48,9 @@ export default function Plans() {
       badge: 'Highly Popular',
       audience: 'Accredited option for individual heads of household',
       pricing: [
-        { age: 'Ages 18 - 65', cost: 45 },
-        { age: 'Ages 66 - 85', cost: 110 }
+        { age: 'Ages 18 - 64', cost: 45 },
+        { age: 'Ages 65 - 74', cost: 110 },
+        { age: 'Ages 76 - 84', cost: 165 }
       ],
       features: [
         'Main Member eligibility (No medical paperwork required)',
@@ -67,7 +68,9 @@ export default function Plans() {
       payoutNum: 15000,
       audience: 'Perfect protection for single parents with dependents',
       pricing: [
-        { age: 'Ages 18 - 65', cost: 65 }
+        { age: 'Ages 18 - 64', cost: 65 },
+        { age: 'Ages 65 - 74', cost: 125 },
+        { age: 'Ages 76 - 84', cost: 185 }
       ],
       features: [
         'Covers Main Member + up to 5 dependent children under age 21',
@@ -85,8 +88,9 @@ export default function Plans() {
       payoutNum: 20000,
       audience: 'Tailored protection for married couples and life partners',
       pricing: [
-        { age: 'Ages 18 - 65', cost: 85 },
-        { age: 'Ages 66 - 75', cost: 160 }
+        { age: 'Ages 18 - 64', cost: 85 },
+        { age: 'Ages 65 - 74', cost: 160 },
+        { age: 'Ages 76 - 84', cost: 240 }
       ],
       features: [
         'Full policy cover of R20,000 for each life partner',
@@ -105,7 +109,9 @@ export default function Plans() {
       badge: 'Best Family Value',
       audience: 'Comprehensive standard coverage for the nuclear family unit',
       pricing: [
-        { age: 'Ages 18 - 65', cost: 115 }
+        { age: 'Ages 18 - 64', cost: 115 },
+        { age: 'Ages 65 - 74', cost: 195 },
+        { age: 'Ages 76 - 84', cost: 295 }
       ],
       features: [
         'Covers Main Member + registered Spouse + up to 5 dependent children',
@@ -127,8 +133,9 @@ export default function Plans() {
       payoutNum: 10000,
       audience: 'Security designed for the support of direct home dependants',
       pricing: [
-        { age: 'Extended Ages 1 - 65', cost: 140 },
-        { age: 'Extended Ages 1 - 75', cost: 190 }
+        { age: 'Ages 1 - 64', cost: 140 },
+        { age: 'Ages 65 - 74', cost: 190 },
+        { age: 'Ages 76 - 84', cost: 280 }
       ],
       features: [
         'Covers Main Member + up to 5 extended relatives',
@@ -147,8 +154,9 @@ export default function Plans() {
       badge: 'Popular Choice',
       audience: 'Covers larger standard domestic circles affordably',
       pricing: [
-        { age: 'Extended Ages 1 - 65', cost: 180 },
-        { age: 'Extended Ages 1 - 75', cost: 240 }
+        { age: 'Ages 1 - 64', cost: 180 },
+        { age: 'Ages 65 - 74', cost: 240 },
+        { age: 'Ages 76 - 84', cost: 340 }
       ],
       features: [
         'Covers Main Member + up to 7 extended relatives side-by-side',
@@ -166,8 +174,9 @@ export default function Plans() {
       payoutNum: 10000,
       audience: 'Designed to protect grandparental generations with comfort',
       pricing: [
-        { age: 'Extended Ages 1 - 65', cost: 220 },
-        { age: 'Extended Ages 1 - 75', cost: 290 }
+        { age: 'Ages 1 - 64', cost: 220 },
+        { age: 'Ages 65 - 74', cost: 290 },
+        { age: 'Ages 76 - 84', cost: 410 }
       ],
       features: [
         'Covers Main Member + up to 9 extended generational relatives',
@@ -186,8 +195,9 @@ export default function Plans() {
       badge: 'Max Protection',
       audience: 'Ultimate broad-scale support for extensive co-operatives',
       pricing: [
-        { age: 'Extended Ages 1 - 65', cost: 295 },
-        { age: 'Extended Ages 1 - 75', cost: 390 }
+        { age: 'Ages 1 - 64', cost: 295 },
+        { age: 'Ages 65 - 74', cost: 390 },
+        { age: 'Ages 76 - 84', cost: 550 }
       ],
       features: [
         'Covers Main Member + up to 13 extended family relations',
@@ -209,7 +219,9 @@ export default function Plans() {
       payoutNum: 5000,
       audience: 'Immediate relief cash for grocery catering on receipt of death notification',
       pricing: [
-        { age: 'Main Ages 18 - 65', cost: 20 }
+        { age: 'Ages 18 - 64', cost: 20 },
+        { age: 'Ages 65 - 74', cost: 40 },
+        { age: 'Ages 76 - 84', cost: 60 }
       ],
       features: [
         'R5,000 lump sum processed in less than 24 hours',
@@ -228,7 +240,9 @@ export default function Plans() {
       badge: 'Highly Requested',
       audience: 'Dedicated cash payout for marquee tents, transport, and hosting',
       pricing: [
-        { age: 'Main Ages 18 - 65', cost: 30 }
+        { age: 'Ages 18 - 64', cost: 30 },
+        { age: 'Ages 65 - 74', cost: 55 },
+        { age: 'Ages 76 - 84', cost: 80 }
       ],
       features: [
         'R10,000 additional hosting assistance',
@@ -246,7 +260,9 @@ export default function Plans() {
       payoutNum: 15000,
       audience: 'Traditional coverage assistance matching the value of a live cow',
       pricing: [
-        { age: 'Main Ages 18 - 65', cost: 45 }
+        { age: 'Ages 18 - 64', cost: 45 },
+        { age: 'Ages 65 - 74', cost: 85 },
+        { age: 'Ages 76 - 84', cost: 120 }
       ],
       features: [
         'R15,000 direct payout to honor cultural ceremony requirements',
@@ -264,7 +280,9 @@ export default function Plans() {
       payoutNum: 10000,
       audience: 'Assistance for high stone erection and unveiling ceremonial expenses',
       pricing: [
-        { age: 'Main Ages 18 - 65', cost: 35 }
+        { age: 'Ages 18 - 64', cost: 35 },
+        { age: 'Ages 65 - 74', cost: 65 },
+        { age: 'Ages 76 - 84', cost: 95 }
       ],
       features: [
         'R10,000 dedicated benefit paid directly to the family representative',
@@ -283,7 +301,9 @@ export default function Plans() {
       badge: 'Pure Liquidity',
       audience: 'Direct tax-free cash support to manage immediate administrative costs',
       pricing: [
-        { age: 'Main Ages 18 - 65', cost: 40 }
+        { age: 'Ages 18 - 64', cost: 40 },
+        { age: 'Ages 65 - 74', cost: 75 },
+        { age: 'Ages 76 - 84', cost: 110 }
       ],
       features: [
         'R15k liquid payout to handle municipal plots, caskets, or transport',
@@ -475,7 +495,7 @@ export default function Plans() {
                 </h3>
               </div>
               <p className="text-xs text-slate-500 max-w-md sm:text-right">
-                Standard, reliable protection for individual members, spouses, and children ages 18-65 under Old Mutual registries.
+                Standard, reliable protection for individual members, spouses, and children ages 18-84 under Old Mutual registries.
               </p>
             </div>
 
@@ -497,7 +517,7 @@ export default function Plans() {
                 </h3>
               </div>
               <p className="text-xs text-slate-500 max-w-md sm:text-right">
-                Extended family options to seamlessly cover parents, in-laws, grandparents, and siblings up to age 75 with great corporate rates.
+                Extended family options to seamlessly cover parents, in-laws, grandparents, and siblings up to age 84 with great corporate rates.
               </p>
             </div>
 
