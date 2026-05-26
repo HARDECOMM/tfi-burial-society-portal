@@ -286,9 +286,9 @@ export default function Contact() {
                       }`}
                     >
                       <option value="">-- Choose Age Range --</option>
-                      <option value="Ages 18 - 65">Ages 18 - 65 (Standard Member)</option>
-                      <option value="Ages 66 - 75">Ages 66 - 75 (Senior Member)</option>
-                      <option value="Ages 76 - 85">Ages 76 - 85 (Extended Senior)</option>
+                      <option value="Ages 18 - 64">Ages 18 - 64 (Standard Member)</option>
+                      <option value="Ages 65 - 74">Ages 65 - 74 (Senior Member)</option>
+                      <option value="Ages 76 - 84">Ages 76 - 84 (Extended Senior)</option>
                       <option value="Ages 1 - 17">Dependent Child (Under Age 18)</option>
                     </select>
                     {formErrors.ageRange && (
