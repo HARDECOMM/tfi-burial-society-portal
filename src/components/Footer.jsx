@@ -144,8 +144,8 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="h-4.5 w-4.5 text-brand-green shrink-0" />
-                  <a href="mailto:info@tfiburial.co.za" className="text-brand-blue-light hover:underline font-mono">
-                    info@tfiburial.co.za
+                  <a href="mailto:info@dignifyfunerals.co.za" className="text-brand-blue-light hover:underline font-mono">
+                    info@dignifyfunerals.co.za
                   </a>
                 </li>
               </ul>
