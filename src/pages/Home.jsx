@@ -239,7 +239,7 @@ export default function Home() {
                 </label>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   {[
-                    { id: 'individual', title: 'Individual Cover', desc: 'Main member only (Ages 18-65)' },
+                    { id: 'individual', title: 'Individual Cover', desc: 'Main member only (Ages 18-84)' },
                     { id: 'family', title: 'Nuclear Family', desc: 'Main member + Spouse + up to 5 Kids' },
                     { id: 'extended', title: 'Extended Family', desc: 'Main member + Parents + Siblings' },
                   ].map((type) => (
